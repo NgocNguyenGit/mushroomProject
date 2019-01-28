@@ -10,15 +10,13 @@ import React, { Component } from 'react';
 import {
     StyleSheet,
 } from 'react-native';
-import Home from './Components/home';
-import Controller from './Components/controller';
-import Store from './Components/store';
-import Cart from './Components/cart';
+import Howto from './Components/howto';
+
 export default class App extends Component {
 
     render() {
         return (
-           <Cart/>
+           <Howto/>
         );
     }
 }
